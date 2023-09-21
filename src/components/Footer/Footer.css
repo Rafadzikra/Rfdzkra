@@ -1,0 +1,30 @@
+
+.body{
+background-color: black;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 4rem;
+}
+
+
+.footer-box h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-box li a {
+    color: white;
+}
+
+.copyright {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    
+}

@@ -1,0 +1,87 @@
+.box1 {
+   border: 50px;
+    border-radius: 20px;
+    margin-left: 25px;
+    height: 10rem;
+    
+}
+.box2 {
+    background:rgb(0, 102, 255);
+    border-radius: 20px;
+    margin-left: 135px;
+    width: 13rem;
+    height: 10rem;
+    
+}
+
+.box1 img {
+    width: 12rem;
+    height: 9rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+.box2 img {
+    width: 12rem;
+    height: 9rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+ .texs {
+    text-align: center;
+    color:rgb(65, 63, 63);
+    font-weight: bold;
+    font-size: 12px;
+ }
+
+.box img {
+ margin-left: 70px;
+ margin-top: 40px;
+ width: 75rem;
+ height: 20rem;
+ border-radius: 20px;
+}
+
+.wrap{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 2rem 0;
+}
+
+.hahay{
+    width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.customer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10px ,auto));
+    gap: 0rem;
+    margin-right: 250px;
+    
+}
+.customer-container .box {
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.customer-container .box h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.5rem;
+    
+}
+.customer1 {
+    margin-bottom:70px ;
+}
+.customer2{
+    margin-bottom: 70px;
+}
+
